@@ -1,3 +1,3 @@
 FILE_PATH = "sqlite:///tracklist.sqlite"
 USER_ID = "aly.kapasi"
-AUTH_TOKEN = "" # fill in later
+AUTH_TOKEN = "BQB3PLwvvw5-MvDodRkpS6Kc7ifMb1ALtMUl6FjFNrXqKg0G3RPbeLJH_FybJraUJqjD7IQ-DhQb5FZAuQJ7Rsodfrxy_zhY4MU6XnpPYjSWJKUZekO9vRuHGRlZoxJf8kk7vozUu2JmdHLfen7lLo0HoJGAVhYPqrBUEvX71AvWycDYq0Z06C--67W_9Bdi6P8E1-b0h80uHPcBpEqKloPVd5WKpb6AwQVd_A"
