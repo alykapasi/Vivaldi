@@ -22,8 +22,7 @@ if __name__ == "__main__":
         "Authorization" : f"Bearer {creds.AUTH_TOKEN}"
     }
 
-    today = datetime.datetime.now()
-    yday = today - datetime.timedelta(days=1)
+    yday = datetime.datetime.now() - datetime.timedelta(days=1)
     yday_unix = int(yday.timestamp()) * 1000
 
     r = requests.get(f"https://api.spotify.com/v1/me/player/recently-played?before={yday_unix}", headers=hdrs)
@@ -31,7 +30,7 @@ if __name__ == "__main__":
 
     data = r.json()
     data_pretty = json.dumps(data, sort_keys = True, indent = 4)
-    ##print(data_pretty)
+    print(data_pretty)
     
 
     for song in data['items']:
