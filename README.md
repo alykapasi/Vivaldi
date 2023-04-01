@@ -30,7 +30,7 @@ The Design Process was split into a couple of steps:
 
 (5) Use the data to create data visualizations and apply various ML models to help identify similar songs. **Problem here is where to first get a list of all songs on spotify, second compute effieciently as there will be a massive amount of songs, some may be nearly identical**
 
-### Possible Extensions \n
+### Possible Extensions
 
 (1) Implement a feedback system to help the algorithm fine tune predictions
 
