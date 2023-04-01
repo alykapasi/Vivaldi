@@ -41,7 +41,7 @@ The Design Process was split into a couple of steps:
 
 (4) **dream implementation** virtual DJ that mixes tracks better and also remixes songs on the fly
 
-#### Current Expectations
+### Current Expectations
 
 (31/03) I don't really have many expectations in terms of performance or quality at this point, as I have very little experience in the other aspects of this project such as building a UI or working with audio data. I also am not very confident in the ML models being able to predict with any great accuracy or to provide any significant insight, as if it was that easy im sure one of the large streaming services would've already implemented it.
 
