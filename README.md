@@ -19,6 +19,7 @@ This project is also to showcase my data science and engineering skills, as it w
 ### Design and Implementation
 
 The Design Process was split into a couple of steps:
+
 (1) EXTRACT => Get the data from spotify using their API and the python requests library.
 
 (2) LOAD => Transfer the data into an SQLite3 Database (only one I know how to use : may need to reconsider if scaling is needed)
@@ -29,7 +30,7 @@ The Design Process was split into a couple of steps:
 
 (5) Use the data to create data visualizations and apply various ML models to help identify similar songs. **Problem here is where to first get a list of all songs on spotify, second compute effieciently as there will be a massive amount of songs, some may be nearly identical**
 
-### Possible Extensions
+### Possible Extensions \n
 
 (1) Implement a feedback system to help the algorithm fine tune predictions
 
